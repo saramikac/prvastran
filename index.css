@@ -1,0 +1,84 @@
+#wrapper {
+  display: grid;
+  grid-template-areas:
+  "menu menu menu menu"
+  "main main main contacts"
+}
+
+#menu {
+  grid-area: menu;
+  padding-top: 0%;
+  margin-bottom: 1%
+}
+
+#main {
+  grid-area: main;
+  padding: 20px 3%;
+  background-color: #F1F1F1;
+}
+
+#contacts {
+  grid-area: contacts;
+  background-color: #D9DBDC;
+  padding: 10px;
+  align-items: center;
+}
+
+#menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  text-align: center;
+}
+
+#menu li {
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+
+li a {
+  display: block;
+  padding: 14px 16px;
+  color: white;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+#slikaSara {
+  width: 100%;
+  float: right;
+}
+
+#contacts img {
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+#contacts h1 {
+  font-size: 15px;
+}
+
+
+#contacts a {
+  text-decoration: none;
+  color: #28292A;
+  font-size: 14px;
+}
+
+
+#footer {
+  text-align: center;
+  padding: 1%;
+  margin-top: 1%;
+  background-color: #EFF8FF;
+  font-size: 13px;
+}
